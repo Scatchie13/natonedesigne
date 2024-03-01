@@ -18,6 +18,7 @@
   position: relative;
   top: 300px;
   left: 200px;
+  color: #faf5f5;
 }
 
 .arrow {
@@ -31,13 +32,13 @@
   justify-content: space-between;
   gap: 40px;
   position: relative;
-  top: 20px; /* расположение от верхней границы страницы */
-  left: 70%; /* центрирование по горизонтали */
-  transform: translateX(-50%); /* центрирование по горизонтали */
-  width: 90%; /* ширина навбара */
-  max-width: 646px; /* максимальная ширина навбара */
-
+  top: 20px;
+  left: 70%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 646px;
   padding: 10px 20px;
+  color: #faf5f5;
 }
 
 .links {

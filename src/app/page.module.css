@@ -4,6 +4,20 @@
   justify-content: space-between;
   align-items: center;
   background-image: url('../../public/images/main.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('../../public/images/services.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .description {
