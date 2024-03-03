@@ -3,6 +3,8 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 import styles from './Service.module.scss'
+import Button from '../UI/Button'
+import Link from 'next/link'
 
 interface IServiceItem {
   name: string
@@ -28,8 +30,11 @@ const ServicesItem: FC<IServiceItem> = ({ name, image, description }) => {
         height={280}
         className={styles.image}
       />
-      <p className={styles.descriptions}>{description}</p>
-      <button>idi nahuy</button>
+      <p>{description}</p>
+      <div className={styles.first}>
+        <Link href="/">Заказать</Link>
+      </div>
+      <Button className="second" />
     </motion.div>
   )
 }
