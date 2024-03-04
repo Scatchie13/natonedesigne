@@ -7,6 +7,11 @@
   margin-right: auto;
   max-width: 1537px;
   height: 757px;
+
+  h1 {
+    position: absolute;
+    margin-top: 20px;
+  }
 }
 
 .item {
@@ -26,6 +31,13 @@
     color: beige;
     padding: 38px;
   }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    color: beige;
+    margin-top: 20px;
+  }
 }
 
 .image {
@@ -37,6 +49,7 @@
 .first {
   display: flex;
   justify-content: center;
+  color: beige;
 }
 
 .title {

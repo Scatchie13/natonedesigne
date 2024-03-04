@@ -30,6 +30,7 @@ const ServicesItem: FC<IServiceItem> = ({ name, image, description }) => {
         height={280}
         className={styles.image}
       />
+      <h3>{name}</h3>
       <p>{description}</p>
       <div className={styles.first}>
         <Link href="/">Заказать</Link>
